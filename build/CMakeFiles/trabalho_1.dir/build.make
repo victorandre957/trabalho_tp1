@@ -83,30 +83,30 @@ CMakeFiles/trabalho_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_1.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp -o CMakeFiles/trabalho_1.dir/main.cpp.s
 
-CMakeFiles/trabalho_1.dir/src/Domain.cpp.o: CMakeFiles/trabalho_1.dir/flags.make
-CMakeFiles/trabalho_1.dir/src/Domain.cpp.o: /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp
-CMakeFiles/trabalho_1.dir/src/Domain.cpp.o: CMakeFiles/trabalho_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho_1.dir/src/Domain.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trabalho_1.dir/src/Domain.cpp.o -MF CMakeFiles/trabalho_1.dir/src/Domain.cpp.o.d -o CMakeFiles/trabalho_1.dir/src/Domain.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp
+CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o: CMakeFiles/trabalho_1.dir/flags.make
+CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o: /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp
+CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o: CMakeFiles/trabalho_1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o -MF CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o.d -o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp
 
-CMakeFiles/trabalho_1.dir/src/Domain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_1.dir/src/Domain.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp > CMakeFiles/trabalho_1.dir/src/Domain.cpp.i
+CMakeFiles/trabalho_1.dir/src/Dominios.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho_1.dir/src/Dominios.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp > CMakeFiles/trabalho_1.dir/src/Dominios.cpp.i
 
-CMakeFiles/trabalho_1.dir/src/Domain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_1.dir/src/Domain.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp -o CMakeFiles/trabalho_1.dir/src/Domain.cpp.s
+CMakeFiles/trabalho_1.dir/src/Dominios.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho_1.dir/src/Dominios.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp -o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.s
 
 # Object files for target trabalho_1
 trabalho_1_OBJECTS = \
 "CMakeFiles/trabalho_1.dir/main.cpp.o" \
-"CMakeFiles/trabalho_1.dir/src/Domain.cpp.o"
+"CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o"
 
 # External object files for target trabalho_1
 trabalho_1_EXTERNAL_OBJECTS =
 
 trabalho_1: CMakeFiles/trabalho_1.dir/main.cpp.o
-trabalho_1: CMakeFiles/trabalho_1.dir/src/Domain.cpp.o
+trabalho_1: CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o
 trabalho_1: CMakeFiles/trabalho_1.dir/build.make
 trabalho_1: CMakeFiles/trabalho_1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable trabalho_1"

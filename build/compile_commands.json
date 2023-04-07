@@ -7,8 +7,8 @@
 },
 {
   "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
-  "command": "/usr/bin/g++   -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Domain.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp",
-  "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp",
-  "output": "CMakeFiles/trabalho_1.dir/src/Domain.cpp.o"
+  "command": "/usr/bin/g++   -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp",
+  "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp",
+  "output": "CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o"
 }
 ]

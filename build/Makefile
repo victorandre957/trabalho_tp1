@@ -153,29 +153,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Domain.o: src/Domain.cpp.o
-.PHONY : src/Domain.o
+src/Dominios.o: src/Dominios.cpp.o
+.PHONY : src/Dominios.o
 
 # target to build an object file
-src/Domain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Domain.cpp.o
-.PHONY : src/Domain.cpp.o
+src/Dominios.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o
+.PHONY : src/Dominios.cpp.o
 
-src/Domain.i: src/Domain.cpp.i
-.PHONY : src/Domain.i
+src/Dominios.i: src/Dominios.cpp.i
+.PHONY : src/Dominios.i
 
 # target to preprocess a source file
-src/Domain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Domain.cpp.i
-.PHONY : src/Domain.cpp.i
+src/Dominios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Dominios.cpp.i
+.PHONY : src/Dominios.cpp.i
 
-src/Domain.s: src/Domain.cpp.s
-.PHONY : src/Domain.s
+src/Dominios.s: src/Dominios.cpp.s
+.PHONY : src/Dominios.s
 
 # target to generate assembly for a file
-src/Domain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Domain.cpp.s
-.PHONY : src/Domain.cpp.s
+src/Dominios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Dominios.cpp.s
+.PHONY : src/Dominios.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Domain.o"
-	@echo "... src/Domain.i"
-	@echo "... src/Domain.s"
+	@echo "... src/Dominios.o"
+	@echo "... src/Dominios.i"
+	@echo "... src/Dominios.s"
 .PHONY : help
 
 
