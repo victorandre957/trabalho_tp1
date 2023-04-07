@@ -1,7 +1,7 @@
 #include <string>
 
 using namespace std;
- 
+
 class Dominio {
 
     protected: 
@@ -14,13 +14,10 @@ class Dominio {
 
 };
 
-class Codigo: public Dominio{
+class Codigo: public Dominio {
 
     private:
         void validar(string);
-
-    public:
-        string getCodigo() const;
 };
 
 class Data: public Dominio {
@@ -45,7 +42,26 @@ class Matricula: public Dominio{
 
     private:
         void validar(string);
-        
 };
 
+class Resultado: public Dominio {
+    private:
+        bool resultado;
+};
 
+class Senha: public Dominio {
+    private:
+        void validar(string);
+};
+
+class Telefone: public Dominio {
+    private:
+        void validar(string);
+};
+
+class Texto: public Dominio {
+    private:
+        void validar(string);
+        bool semEspacos(string);
+        bool semAcentos(string);
+};
