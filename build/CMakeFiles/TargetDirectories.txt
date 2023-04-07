@@ -1,0 +1,3 @@
+/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build/CMakeFiles/trabalho_1.dir
+/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build/CMakeFiles/edit_cache.dir
+/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build/CMakeFiles/rebuild_cache.dir

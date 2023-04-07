@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/trabalho_1.dir/main.cpp.o CMakeFiles/trabalho_1.dir/src/Domain.cpp.o -o trabalho_1 

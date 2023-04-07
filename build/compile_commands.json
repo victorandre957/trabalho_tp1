@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
+  "command": "/usr/bin/g++   -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/main.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp",
+  "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp",
+  "output": "CMakeFiles/trabalho_1.dir/main.cpp.o"
+},
+{
+  "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
+  "command": "/usr/bin/g++   -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Domain.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp",
+  "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp",
+  "output": "CMakeFiles/trabalho_1.dir/src/Domain.cpp.o"
+}
+]
