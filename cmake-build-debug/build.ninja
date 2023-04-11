@@ -52,12 +52,21 @@ build cmake_object_order_depends_target_trabalho_1: phony || CMakeFiles/trabalho
 build CMakeFiles/trabalho_1.dir/main.cpp.o: CXX_COMPILER__trabalho_1_Debug /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp || cmake_object_order_depends_target_trabalho_1
   DEP_FILE = CMakeFiles/trabalho_1.dir/main.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include
   OBJECT_DIR = CMakeFiles/trabalho_1.dir
   OBJECT_FILE_DIR = CMakeFiles/trabalho_1.dir
 
-build CMakeFiles/trabalho_1.dir/src/Domain.cpp.o: CXX_COMPILER__trabalho_1_Debug /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Domain.cpp || cmake_object_order_depends_target_trabalho_1
-  DEP_FILE = CMakeFiles/trabalho_1.dir/src/Domain.cpp.o.d
+build CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o: CXX_COMPILER__trabalho_1_Debug /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp || cmake_object_order_depends_target_trabalho_1
+  DEP_FILE = CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include
+  OBJECT_DIR = CMakeFiles/trabalho_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/trabalho_1.dir/src
+
+build CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o: CXX_COMPILER__trabalho_1_Debug /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Entidades.cpp || cmake_object_order_depends_target_trabalho_1
+  DEP_FILE = CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  INCLUDES = -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include
   OBJECT_DIR = CMakeFiles/trabalho_1.dir
   OBJECT_FILE_DIR = CMakeFiles/trabalho_1.dir/src
 
@@ -69,7 +78,7 @@ build CMakeFiles/trabalho_1.dir/src/Domain.cpp.o: CXX_COMPILER__trabalho_1_Debug
 #############################################
 # Link the executable trabalho_1
 
-build trabalho_1: CXX_EXECUTABLE_LINKER__trabalho_1_Debug CMakeFiles/trabalho_1.dir/main.cpp.o CMakeFiles/trabalho_1.dir/src/Domain.cpp.o
+build trabalho_1: CXX_EXECUTABLE_LINKER__trabalho_1_Debug CMakeFiles/trabalho_1.dir/main.cpp.o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/trabalho_1.dir
   POST_BUILD = :

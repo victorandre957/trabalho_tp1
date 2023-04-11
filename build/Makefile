@@ -177,6 +177,30 @@ src/Dominios.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Dominios.cpp.s
 .PHONY : src/Dominios.cpp.s
 
+src/Entidades.o: src/Entidades.cpp.o
+.PHONY : src/Entidades.o
+
+# target to build an object file
+src/Entidades.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o
+.PHONY : src/Entidades.cpp.o
+
+src/Entidades.i: src/Entidades.cpp.i
+.PHONY : src/Entidades.i
+
+# target to preprocess a source file
+src/Entidades.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Entidades.cpp.i
+.PHONY : src/Entidades.cpp.i
+
+src/Entidades.s: src/Entidades.cpp.s
+.PHONY : src/Entidades.s
+
+# target to generate assembly for a file
+src/Entidades.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Entidades.cpp.s
+.PHONY : src/Entidades.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/Dominios.o"
 	@echo "... src/Dominios.i"
 	@echo "... src/Dominios.s"
+	@echo "... src/Entidades.o"
+	@echo "... src/Entidades.i"
+	@echo "... src/Entidades.s"
 .PHONY : help
 
 

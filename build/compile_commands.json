@@ -1,14 +1,20 @@
 [
 {
   "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
-  "command": "/usr/bin/g++   -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/main.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp",
+  "command": "/usr/bin/g++  -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/main.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp",
   "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp",
   "output": "CMakeFiles/trabalho_1.dir/main.cpp.o"
 },
 {
   "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
-  "command": "/usr/bin/g++   -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp",
+  "command": "/usr/bin/g++  -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp",
   "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Dominios.cpp",
   "output": "CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o"
+},
+{
+  "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
+  "command": "/usr/bin/g++  -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Entidades.cpp",
+  "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Entidades.cpp",
+  "output": "CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o"
 }
 ]

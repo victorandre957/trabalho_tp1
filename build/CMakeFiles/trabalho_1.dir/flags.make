@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include
 
 CXX_FLAGS = -g -std=gnu++23
 
