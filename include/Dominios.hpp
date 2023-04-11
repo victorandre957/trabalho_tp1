@@ -1,3 +1,6 @@
+#ifndef DOMINIOS_HPP
+#define DOMINIOS_HPP
+
 #include <string>
 
 using namespace std;
@@ -150,3 +153,22 @@ class Texto: public Dominio {
         bool semEspacos(string);
         bool semAcentos(string);
 };
+/**
+ *  @brief Representa as diferentes classes que um teste pode ser.
+ *  @details O valor armazenado deve ser de um dos tipos abaixo:
+ *  <ul>
+ *     <li>  UNIDADE    </li>
+ *     <li>  INTEGRACAO </li>
+ *     <li>  FUMACA     </li>
+ *     <li>  SISTEMA    </li>
+ *     <li>  REGRESSAO  </li>
+ *     <li>  ACEITACAO  </li>
+ *  </ul>
+ * por: Victor André 211026664
+ */
+class Classe: public Dominio {
+    private:
+        void validar(string);
+};
+
+#endif // DOMINIOS_HPP
