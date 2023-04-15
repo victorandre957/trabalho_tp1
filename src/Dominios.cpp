@@ -82,14 +82,14 @@ void Data::validar(string dado) {
 
     map<string, int> meses = {{"JAN", 1}, {"FEV", 2}, {"MAR", 3}, {"ABR", 4}, {"MAI", 5}, {"JUN", 6},
     {"JUL", 7}, {"AGO", 8}, {"SET", 9}, {"OUT", 10}, {"NOV", 11}, {"DEZ", 12}};
-    
-    if (dado.length() != 8) {
+
+    if (dado.length() != 9) {
         throw invalid_argument("Data com tamanho inválido.");
     }
     
     int dia = stoi(dado.substr(0, 2));
     string mesStr = dado.substr(3, 3);
-    int ano = stoi(dado.substr(6, 2)) + 2000;
+    int ano = stoi(dado.substr(7, 2)) + 2000;
     
     if (dia < 1 || dia > 31) {
         throw invalid_argument("Dia inválido.");

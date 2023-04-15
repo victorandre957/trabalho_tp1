@@ -38,6 +38,10 @@ class Dominio {
         void setDado(string dado);
 };
 
+inline string Dominio::getDado() const {
+    return dado;
+}
+
 /**
  *  @brief Representa as diferentes classes que um teste pode ser.
  *  @details O valor armazenado deve ser de um dos tipos abaixo:
