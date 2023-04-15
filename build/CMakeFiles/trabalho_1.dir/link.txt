@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/trabalho_1.dir/main.cpp.o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o -o trabalho_1 
+/usr/bin/g++ -g CMakeFiles/trabalho_1.dir/main.cpp.o CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o -o trabalho_1 

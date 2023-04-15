@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o.d"
   "CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o"
   "CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o.d"
+  "CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o"
+  "CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o.d"
   "trabalho_1"
   "trabalho_1.pdb"
 )

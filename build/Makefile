@@ -201,6 +201,30 @@ src/Entidades.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/Entidades.cpp.s
 .PHONY : src/Entidades.cpp.s
 
+src/TestesUnitarios.o: src/TestesUnitarios.cpp.o
+.PHONY : src/TestesUnitarios.o
+
+# target to build an object file
+src/TestesUnitarios.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o
+.PHONY : src/TestesUnitarios.cpp.o
+
+src/TestesUnitarios.i: src/TestesUnitarios.cpp.i
+.PHONY : src/TestesUnitarios.i
+
+# target to preprocess a source file
+src/TestesUnitarios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.i
+.PHONY : src/TestesUnitarios.cpp.i
+
+src/TestesUnitarios.s: src/TestesUnitarios.cpp.s
+.PHONY : src/TestesUnitarios.s
+
+# target to generate assembly for a file
+src/TestesUnitarios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho_1.dir/build.make CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.s
+.PHONY : src/TestesUnitarios.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/Entidades.o"
 	@echo "... src/Entidades.i"
 	@echo "... src/Entidades.s"
+	@echo "... src/TestesUnitarios.o"
+	@echo "... src/TestesUnitarios.i"
+	@echo "... src/TestesUnitarios.s"
 .PHONY : help
 
 

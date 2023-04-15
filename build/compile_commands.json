@@ -16,5 +16,11 @@
   "command": "/usr/bin/g++  -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Entidades.cpp",
   "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Entidades.cpp",
   "output": "CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o"
+},
+{
+  "directory": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/build",
+  "command": "/usr/bin/g++  -I/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include -g -std=gnu++23 -o CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o -c /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/TestesUnitarios.cpp",
+  "file": "/home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/TestesUnitarios.cpp",
+  "output": "CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o"
 }
 ]
