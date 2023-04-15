@@ -8,8 +8,8 @@ class TestDominio {
     protected:
         bool estado;
         Dominio * dominio;
-        const string * VALOR_VALIDO;
-        const string * VALOR_INVALIDO;
+        const string * DADO_VALIDO;
+        const string * DADO_INVALIDO;
         virtual void setUp() = 0;
         void tearDown();
         virtual void testarCasoValido();
@@ -17,6 +17,11 @@ class TestDominio {
 
     public:
         bool run();
+};
+
+class TestClasse:public TestDominio{
+    private:
+        void setUp();
 };
 
 class TestCodigo:public TestDominio{
@@ -29,7 +34,7 @@ class TestData:public TestDominio{
         void setUp();
 };
 
-class TestMatricola:public TestDominio{
+class TestMatricula:public TestDominio{
     private:
         void setUp();
 };
@@ -54,33 +59,6 @@ class TestTexto:public TestDominio{
         void setUp();
 };
 
-class TestClasse:public TestDominio{
-    private:
-        void setUp();
-};
-
-class TestTeste {
-private:
-    Teste *teste;
-    bool estado;
-    void setUp();
-    void tearDown();
-    void testarCenarioSucesso();
-public:
-    bool run();
-};
-
-class TestCasoDeTeste {
-    private:
-        CasoDeTeste *casoDeTeste;
-        bool estado;
-        void setUp();
-        void tearDown();
-        void testarCenarioSucesso();
-    public:
-        bool run();
-};
-
 class TestDesenvolvedor {
     private:
        Desenvolvedor * desenvolvedor;
@@ -89,10 +67,45 @@ class TestDesenvolvedor {
        const string * SENHA_VALIDA;
        const string * TELEFONE_VALIDO;
 
-       bool estado;
-       void setUp();
-       void testarCenarioSucesso();
-       void tearDown();
+        bool estado;
+        void setUp();
+        void tearDown();
+        void testarCasoSucesso();
+    public:
+        bool run();
+};
+
+class TestTeste {
+    private:
+        Teste * teste;
+        const string * CODIGO_VALIDO;
+        const string * NOME_VALIDO;
+        const string * CLASSE_VALIDA;
+
+        bool estado;
+        void setUp();
+        void tearDown();
+        void testarCasoSucesso();
+
+    public:
+        bool run();
+};
+
+class TestCasoDeTeste {
+    private:
+        CasoDeTeste * casoDeTeste;
+        const string * CODIGO_VALIDO;
+        const string * NOME_VALIDO;
+        const string * DATA_VALIDA;
+        const string * ACAO_VALIDA;
+        const string * RESPOSTA_VALIDA;
+        const string * RESULTADO_VALIDO;
+
+        bool estado;
+        void setUp();
+        void tearDown();
+        void testarCasoSucesso();
+
     public:
         bool run();
 };
