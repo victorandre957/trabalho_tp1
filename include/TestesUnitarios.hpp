@@ -4,6 +4,7 @@
 #include "Dominios.hpp"
 #include "Entidades.hpp"
 
+//por: Victor André 211026664 (Codificação) e Luan Guedes (Documentação)
 class TestDominio {
     protected:
         bool estado;
