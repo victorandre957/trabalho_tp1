@@ -37,6 +37,25 @@ class Dominio {
          */
         void setDado(string dado);
 };
+
+/**
+ *  @brief Representa as diferentes classes que um teste pode ser.
+ *  @details O valor armazenado deve ser de um dos tipos abaixo:
+ *  <ul>
+ *     <li>  UNIDADE    </li>
+ *     <li>  INTEGRACAO </li>
+ *     <li>  FUMACA     </li>
+ *     <li>  SISTEMA    </li>
+ *     <li>  REGRESSAO  </li>
+ *     <li>  ACEITACAO  </li>
+ *  </ul>
+ * por: Victor André 211026664
+ */
+class Classe: public Dominio {
+    private:
+        void validar(string);
+};
+
 /**
  * @brief Conjunto de 6 caracteres representam uma informação.
  * @details o formato do código deverá ser "LLLDDD", sendo:
@@ -67,18 +86,7 @@ class Codigo: public Dominio {
 class Data: public Dominio {
 
     private:
-        static int dia, ano;
-        static string mes;
         void validar(string);
-
-    public:
-        int getDia() const;
-        string getMes() const;
-        int getAno() const;
-
-        void setDia(int);
-        void setMes(string);
-        void setAno(int);
 
 };
 /**
@@ -152,23 +160,6 @@ class Texto: public Dominio {
         void validar(string);
         bool semEspacos(string);
         bool semAcentos(string);
-};
-/**
- *  @brief Representa as diferentes classes que um teste pode ser.
- *  @details O valor armazenado deve ser de um dos tipos abaixo:
- *  <ul>
- *     <li>  UNIDADE    </li>
- *     <li>  INTEGRACAO </li>
- *     <li>  FUMACA     </li>
- *     <li>  SISTEMA    </li>
- *     <li>  REGRESSAO  </li>
- *     <li>  ACEITACAO  </li>
- *  </ul>
- * por: Victor André 211026664
- */
-class Classe: public Dominio {
-    private:
-        void validar(string);
 };
 
 #endif // DOMINIOS_HPP
