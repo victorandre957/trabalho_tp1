@@ -4,6 +4,7 @@
 #include "Dominios.hpp"
 #include "Entidades.hpp"
 
+//por: Victor André 211026664 (Codificação) e Luan Guedes (Documentação)
 class TestDominio {
     protected:
         bool estado;
@@ -59,6 +60,7 @@ class TestClasse:public TestDominio{
         void setUp();
 };
 
+//por: Victor André 211026664 (Codificação) e Luan Guedes (Documentação)
 class TestTeste {
 private:
     Teste *teste;
@@ -70,6 +72,7 @@ public:
     bool run();
 };
 
+//por: Victor André 211026664 (Codificação) e Luan Guedes (Documentação)
 class TestCasoDeTeste {
     private:
         CasoDeTeste *casoDeTeste;
@@ -81,6 +84,7 @@ class TestCasoDeTeste {
         bool run();
 };
 
+//por: Victor André 211026664 (Codificação) e Luan Guedes (Documentação)
 class TestDesenvolvedor {
     private:
        Desenvolvedor * desenvolvedor;
