@@ -26,15 +26,15 @@ int main() {
         cout << "\tSUCESSO." << endl;
     else
         cout << "\tFRACASSO" << endl;
-
-    // TODO: chamar os testes que ainda não foram criados e após isso remover os comentários abaixo
     
-    // TestMatricula t_u_matricula;
-    // cout << "Teste Unitario de Matricula: ";
-    // if (t_u_matricula.run())
-    //     cout << "\tSUCESSO." << endl;
-    // else
-    //     cout << "\tFRACASSO" << endl;
+    TestMatricula t_u_matricula;
+    cout << "Teste Unitario de Matricula: ";
+    if (t_u_matricula.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
+
+     // TODO: chamar os testes que ainda não foram criados e após isso remover os comentários abaixo
 
     // TestDesenvolvedor t_u_desenvolvedor;
     // cout << "Teste Unitario de desenvolvedor: ";
