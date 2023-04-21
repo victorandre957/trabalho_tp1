@@ -162,8 +162,6 @@ class Texto: public Dominio {
 
     private:
         void validar(string);
-        bool semEspacos(string);
-        bool semAcentos(string);
 };
 
 #endif // DOMINIOS_HPP

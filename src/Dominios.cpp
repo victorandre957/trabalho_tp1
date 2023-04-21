@@ -5,6 +5,7 @@
 #include <stdexcept>
 #include <map>
 #include <unordered_set>
+#include <regex>
 
 using namespace std;
 
@@ -112,4 +113,35 @@ void Data::validar(string dado) {
         || ((mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) && dia > 31)) {
         throw invalid_argument("Dia inválido para o mês correspondente.");
     }
+}
+
+void Telefone::validar(string dado){
+    regex pattern("\\+\\d{7,15}"); 
+
+    if(regex_match(dado, pattern)){
+        throw invalid_argument("Número inválido.");
+    }
+
+};
+
+void Texto::validar(string dado){
+    regex pattern("^(?=.{10,20}$)(?=[^\\s])(?!.*\\s{2,})[A-Za-z0-9.,;?!:\\-@$%&#+]+$");
+
+    if (regex_match(dado, pattern)){
+        throw invalid_argument("Texto inválido");
+    }
+
+}
+
+void Senha::validar(string dado){
+    regex pattern("^(?=.{7,7}$)(?=[^\\s])(?!.*\\s{2,})[A-Za-z0-9\\@$%&#]$");
+
+    if (regex_match(dado, pattern)){
+        throw invalid_argument("Senha inválida");
+    }
+}
+
+void Resultado:: validar(string dado){
+    // what
+    
 }
