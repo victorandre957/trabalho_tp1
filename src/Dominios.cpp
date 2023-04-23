@@ -128,7 +128,7 @@ void Texto::validar(string dado){
     regex pattern("^(?=.{10,20}$)(?=[^\\s])(?!.*\\s{2,})[A-Za-z0-9.,;?!:\\-@$%&#+]+$");
 
     if (regex_match(dado, pattern)){
-        throw invalid_argument("Texto inválido");
+        throw invalid_argument("Texto inválido.");
     }
 
 }
@@ -137,11 +137,18 @@ void Senha::validar(string dado){
     regex pattern("^(?=.{7,7}$)(?=[^\\s])(?!.*\\s{2,})[A-Za-z0-9\\@$%&#]$");
 
     if (regex_match(dado, pattern)){
-        throw invalid_argument("Senha inválida");
+        throw invalid_argument("Senha inválida.");
     }
 }
 
 void Resultado:: validar(string dado){
-    // what
+     unordered_set<string> resultados = {
+        "APROVADO", 
+        "REPROVADO"
+    };
+
+    if (resultados.count(dado) == 0) {
+        throw invalid_argument("Opção inválida.");
+    }
     
 }
