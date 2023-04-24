@@ -34,26 +34,52 @@ int main() {
     else
         cout << "\tFRACASSO" << endl;
 
-     // TODO: chamar os testes que ainda não foram criados e após isso remover os comentários abaixo
+    TestResultado t_u_resultado;
+    cout << "Teste Unitario de Resultado: ";
+    if (t_u_resultado.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
+    
+    TestSenha t_u_senha;
+    cout << "Teste Unitario de Senha: ";
+    if (t_u_senha.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
 
-    // TestDesenvolvedor t_u_desenvolvedor;
-    // cout << "Teste Unitario de desenvolvedor: ";
-    // if (t_u_desenvolvedor.run())
-    //     cout << "\tSUCESSO." << endl;
-    // else
-    //     cout << "\tFRACASSO" << endl;
+    TestTelefone t_u_telefone;
+    cout << "Teste Unitario de Telefone: ";
+    if (t_u_telefone.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
+
+    TestTexto t_u_texto;
+    cout << "Teste Unitario de Texto: ";
+    if (t_u_texto.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
+
+    TestDesenvolvedor t_u_desenvolvedor;
+    cout << "Teste Unitario de desenvolvedor: ";
+    if (t_u_desenvolvedor.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
     
-    // TestTeste t_u_teste;
-    // cout << "Teste Unitario de teste: ";
-    // if (t_u_teste.run())
-    //     cout << "\tSUCESSO." << endl;
-    // else
-    //     cout << "\tFRACASSO" << endl;
+    TestTeste t_u_teste;
+    cout << "Teste Unitario de teste: ";
+    if (t_u_teste.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
     
-    // TestCasoDeTeste t_u_caso_de_teste;
-    // cout << "Teste Unitario de Caso de Teste: ";
-    // if (t_u_caso_de_teste.run())
-    //     cout << "\tSUCESSO." << endl;
-    // else
-    //     cout << "\tFRACASSO" << endl;
+    TestCasoDeTeste t_u_caso_de_teste;
+    cout << "Teste Unitario de Caso de Teste: ";
+    if (t_u_caso_de_teste.run())
+        cout << "\tSUCESSO." << endl;
+    else
+        cout << "\tFRACASSO" << endl;
 }

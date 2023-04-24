@@ -400,7 +400,54 @@ CMakeFiles/trabalho_1.dir/src/Dominios.cpp.o: /home/victor_moraes/Documentos/Unb
   /usr/include/c++/12.2.1/bits/hashtable.h \
   /usr/include/c++/12.2.1/bits/hashtable_policy.h \
   /usr/include/c++/12.2.1/bits/enable_special_members.h \
-  /usr/include/c++/12.2.1/bits/unordered_set.h
+  /usr/include/c++/12.2.1/bits/unordered_set.h \
+  /usr/include/c++/12.2.1/regex \
+  /usr/include/c++/12.2.1/bitset \
+  /usr/include/c++/12.2.1/locale \
+  /usr/include/c++/12.2.1/bits/locale_facets_nonio.h \
+  /usr/include/c++/12.2.1/ctime \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+  /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/12.2.1/bits/codecvt.h \
+  /usr/include/c++/12.2.1/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/12.2.1/bits/locale_conv.h \
+  /usr/include/c++/12.2.1/sstream \
+  /usr/include/c++/12.2.1/bits/sstream.tcc \
+  /usr/include/c++/12.2.1/stack \
+  /usr/include/c++/12.2.1/deque \
+  /usr/include/c++/12.2.1/bits/stl_uninitialized.h \
+  /usr/include/c++/12.2.1/bits/stl_deque.h \
+  /usr/include/c++/12.2.1/bits/deque.tcc \
+  /usr/include/c++/12.2.1/bits/stl_stack.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr.h \
+  /usr/include/c++/12.2.1/bits/shared_ptr_base.h \
+  /usr/include/c++/12.2.1/bits/allocated_ptr.h \
+  /usr/include/c++/12.2.1/bits/unique_ptr.h \
+  /usr/include/c++/12.2.1/ext/concurrence.h \
+  /usr/include/c++/12.2.1/bit \
+  /usr/include/c++/12.2.1/bits/align.h \
+  /usr/include/c++/12.2.1/bits/std_function.h \
+  /usr/include/c++/12.2.1/bits/stl_algo.h \
+  /usr/include/c++/12.2.1/bits/algorithmfwd.h \
+  /usr/include/c++/12.2.1/bits/stl_heap.h \
+  /usr/include/c++/12.2.1/bits/stl_tempbuf.h \
+  /usr/include/c++/12.2.1/bits/uniform_int_dist.h \
+  /usr/include/c++/12.2.1/bits/stl_vector.h \
+  /usr/include/c++/12.2.1/bits/stl_bvector.h \
+  /usr/include/c++/12.2.1/bits/vector.tcc \
+  /usr/include/c++/12.2.1/bits/regex_constants.h \
+  /usr/include/c++/12.2.1/bits/regex_error.h \
+  /usr/include/c++/12.2.1/bits/regex_automaton.h \
+  /usr/include/c++/12.2.1/bits/regex_automaton.tcc \
+  /usr/include/c++/12.2.1/bits/regex_scanner.h \
+  /usr/include/c++/12.2.1/bits/regex_scanner.tcc \
+  /usr/include/c++/12.2.1/bits/regex_compiler.h \
+  /usr/include/c++/12.2.1/bits/regex_compiler.tcc \
+  /usr/include/c++/12.2.1/bits/regex.h \
+  /usr/include/c++/12.2.1/bits/regex.tcc \
+  /usr/include/c++/12.2.1/bits/regex_executor.h \
+  /usr/include/c++/12.2.1/bits/regex_executor.tcc
 
 CMakeFiles/trabalho_1.dir/src/Entidades.cpp.o: /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/Entidades.cpp \
   /usr/include/stdc-predef.h \
@@ -702,11 +749,47 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
   /usr/include/c++/12.2.1/bits/nested_exception.h
 
 
+/usr/include/c++/12.2.1/bits/regex_executor.tcc:
+
+/usr/include/c++/12.2.1/bits/regex_compiler.tcc:
+
+/usr/include/c++/12.2.1/bits/regex_compiler.h:
+
 /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/src/TestesUnitarios.cpp:
+
+/usr/include/c++/12.2.1/bits/regex_error.h:
+
+/usr/include/c++/12.2.1/bits/vector.tcc:
+
+/usr/include/c++/12.2.1/bits/stl_bvector.h:
+
+/usr/include/c++/12.2.1/bits/stl_vector.h:
+
+/usr/include/c++/12.2.1/bits/std_function.h:
+
+/usr/include/c++/12.2.1/bits/unique_ptr.h:
+
+/usr/include/c++/12.2.1/bits/stl_uninitialized.h:
+
+/usr/include/c++/12.2.1/deque:
+
+/usr/include/c++/12.2.1/bits/locale_facets_nonio.tcc:
+
+/usr/include/libintl.h:
+
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/c++/12.2.1/bits/locale_facets_nonio.h:
+
+/usr/include/c++/12.2.1/ctime:
 
 /usr/include/c++/12.2.1/bits/enable_special_members.h:
 
+/usr/include/c++/12.2.1/bits/shared_ptr_base.h:
+
 /usr/include/c++/12.2.1/bits/hashtable.h:
+
+/usr/include/c++/12.2.1/bits/uniform_int_dist.h:
 
 /usr/include/c++/12.2.1/unordered_set:
 
@@ -744,7 +827,11 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
+/usr/include/c++/12.2.1/bits/regex_scanner.h:
+
 /usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/12.2.1/bits/allocated_ptr.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
@@ -772,6 +859,10 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/iostream:
 
+/usr/include/c++/12.2.1/bits/regex.h:
+
+/usr/include/c++/12.2.1/bits/locale_conv.h:
+
 /usr/include/c++/12.2.1/cwctype:
 
 /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include/TestesUnitarios.hpp:
@@ -790,11 +881,15 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/bits/errno.h:
 
+/usr/include/c++/12.2.1/bits/stl_stack.h:
+
 /usr/include/c++/12.2.1/cerrno:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/include/bits/types/struct_FILE.h:
+
+/usr/include/c++/12.2.1/bits/regex_executor.h:
 
 /usr/include/bits/types/__fpos64_t.h:
 
@@ -803,6 +898,10 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/c++/12.2.1/cstdio:
 
 /usr/include/bits/stdint-uintn.h:
+
+/usr/include/c++/12.2.1/bits/stl_heap.h:
+
+/usr/include/c++/12.2.1/bits/sstream.tcc:
 
 /usr/include/c++/12.2.1/bits/stl_iterator_base_types.h:
 
@@ -822,6 +921,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/bits/move.h:
 
+/usr/include/c++/12.2.1/bits/regex_automaton.tcc:
+
 /usr/include/c++/12.2.1/bits/exception.h:
 
 /usr/include/c++/12.2.1/new:
@@ -836,7 +937,11 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/sys/cdefs.h:
 
+/usr/include/c++/12.2.1/bits/stl_tempbuf.h:
+
 /usr/include/c++/12.2.1/concepts:
+
+/usr/include/c++/12.2.1/bits/stl_algo.h:
 
 /usr/include/bits/cpu-set.h:
 
@@ -850,6 +955,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/bits/stl_algobase.h:
 
+/usr/include/c++/12.2.1/ext/concurrence.h:
+
 /usr/include/c++/12.2.1/initializer_list:
 
 /usr/include/bits/time.h:
@@ -857,6 +964,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/bits/stdio_lim.h:
 
 /usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/c++/12.2.1/bits/align.h:
 
 /usr/include/bits/long-double.h:
 
@@ -880,7 +989,11 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/locale.h:
 
+/usr/include/c++/12.2.1/regex:
+
 /usr/include/c++/12.2.1/string_view:
+
+/usr/include/c++/12.2.1/bits/deque.tcc:
 
 /usr/include/gnu/stubs-64.h:
 
@@ -893,6 +1006,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/types/__FILE.h:
+
+/usr/include/c++/12.2.1/stack:
 
 /usr/include/bits/time64.h:
 
@@ -916,6 +1031,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/include/Dominios.hpp:
 
+/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
+
 /usr/include/c++/12.2.1/bits/predefined_ops.h:
 
 /usr/include/bits/wchar.h:
@@ -925,6 +1042,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/timesize.h:
+
+/usr/include/c++/12.2.1/bit:
 
 /usr/include/c++/12.2.1/bits/locale_facets.tcc:
 
@@ -966,11 +1085,15 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/bits/new_allocator.h:
 
+/usr/include/c++/12.2.1/locale:
+
 /usr/include/c++/12.2.1/bits/ranges_cmp.h:
 
 /usr/include/bits/floatn.h:
 
 /home/victor_moraes/Documentos/Unb/TP1/trabalho_1/main.cpp:
+
+/usr/include/c++/12.2.1/bits/regex_automaton.h:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -1001,6 +1124,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/c++/12.2.1/cstdlib:
 
 /usr/include/c++/12.2.1/bits/exception_defines.h:
+
+/usr/include/c++/12.2.1/bits/regex_constants.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h:
 
@@ -1044,6 +1169,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/bits/refwrap.h:
 
+/usr/include/c++/12.2.1/bits/algorithmfwd.h:
+
 /usr/include/bits/types/time_t.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
@@ -1053,6 +1180,8 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/c++/12.2.1/bits/range_access.h:
 
 /usr/include/c++/12.2.1/bits/basic_string.h:
+
+/usr/include/c++/12.2.1/bits/codecvt.h:
 
 /usr/include/c++/12.2.1/map:
 
@@ -1068,7 +1197,11 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/c++/12.2.1/numbers:
 
+/usr/include/c++/12.2.1/sstream:
+
 /usr/include/stdlib.h:
+
+/usr/include/c++/12.2.1/bits/shared_ptr.h:
 
 /usr/include/c++/12.2.1/bits/allocator.h:
 
@@ -1098,9 +1231,13 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 
 /usr/include/sys/select.h:
 
+/usr/include/c++/12.2.1/bits/regex.tcc:
+
 /usr/include/c++/12.2.1/bits/memoryfwd.h:
 
 /usr/include/bits/select.h:
+
+/usr/include/c++/12.2.1/bitset:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -1115,6 +1252,10 @@ CMakeFiles/trabalho_1.dir/src/TestesUnitarios.cpp.o: /home/victor_moraes/Documen
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/bits/pthreadtypes.h:
+
+/usr/include/c++/12.2.1/bits/regex_scanner.tcc:
+
+/usr/include/c++/12.2.1/bits/stl_deque.h:
 
 /usr/include/c++/12.2.1/bits/istream.tcc:
 
