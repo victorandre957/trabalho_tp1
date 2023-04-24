@@ -48,35 +48,6 @@ void Codigo::validar(string dado) {
             throw invalid_argument("Os 3 últimos caracteres devem ser um número de 0 a 9.");
         }
     }
-}
-
-void Matricula::validar(string dado) {
-    if (dado.length() != 10) {
-        throw invalid_argument("Número com quantidade de dígitos inválida.");
-    }
-    
-    int soma = 0;
-    int tamanho = dado.length();
-    int multiplicador = 2;
-    
-    for (int i = tamanho - 1; i >= 0; i--) {
-        int digito = dado[i] - '0';
-        int resultado = digito * multiplicador;
-        multiplicador = (multiplicador == 2) ? 1 : 2;
-        
-        if (resultado >= 10) {
-            resultado = (resultado % 10) + (resultado / 10);
-        }
-        
-        soma += resultado;
-    }
-    
-    int resto = soma % 10;
-    int digitoVerificador = (resto == 0) ? 0 : 10 - resto;
-    
-    if (digitoVerificador != (dado[tamanho - 1] - '0')) {
-        throw invalid_argument("Dígito verificador inválido.");
-    }
 };
 
 void Data::validar(string dado) {
@@ -113,42 +84,69 @@ void Data::validar(string dado) {
         || ((mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) && dia > 31)) {
         throw invalid_argument("Dia inválido para o mês correspondente.");
     }
-}
-
-void Telefone::validar(string dado){
-    regex pattern("\\+\\d{7,15}"); 
-
-    if(regex_match(dado, pattern)){
-        throw invalid_argument("Número inválido.");
-    }
-
 };
 
-void Texto::validar(string dado){
-    regex pattern("^(?=.{10,20}$)(?=[^\\s])(?!.*\\s{2,})[A-Za-z0-9.,;?!:\\-@$%&#+]+$");
-
-    if (regex_match(dado, pattern)){
-        throw invalid_argument("Texto inválido.");
+void Matricula::validar(string dado) {
+    if (dado.length() != 10) {
+        throw invalid_argument("Número com quantidade de dígitos inválida.");
     }
-
-}
-
-void Senha::validar(string dado){
-    regex pattern("^(?=.{7,7}$)(?=[^\\s])(?!.*\\s{2,})[A-Za-z0-9\\@$%&#]$");
-
-    if (regex_match(dado, pattern)){
-        throw invalid_argument("Senha inválida.");
+    
+    int soma = 0;
+    int tamanho = dado.length();
+    int multiplicador = 2;
+    
+    for (int i = tamanho - 1; i >= 0; i--) {
+        int digito = dado[i] - '0';
+        int resultado = digito * multiplicador;
+        multiplicador = (multiplicador == 2) ? 1 : 2;
+        
+        if (resultado >= 10) {
+            resultado = (resultado % 10) + (resultado / 10);
+        }
+        
+        soma += resultado;
     }
-}
+    
+    int resto = soma % 10;
+    int digitoVerificador = (resto == 0) ? 0 : 10 - resto;
+    
+    if (digitoVerificador != (dado[tamanho - 1] - '0')) {
+        throw invalid_argument("Dígito verificador inválido.");
+    }
+};
 
 void Resultado:: validar(string dado){
-     unordered_set<string> resultados = {
+    unordered_set<string> resultados = {
         "APROVADO", 
         "REPROVADO"
     };
-
     if (resultados.count(dado) == 0) {
         throw invalid_argument("Opção inválida.");
     }
     
+};
+
+void Senha::validar(string dado){
+    regex pattern(R"((?!.*(.).*\1)^[A-Za-z0-9@$#\$%&]{6,})");
+
+    if (!regex_match(dado, pattern)){
+        throw invalid_argument("Senha inválida.");
+    }
+};
+
+void Telefone::validar(string dado){
+    regex pattern("\\+\\d{7,15}"); 
+
+    if(!regex_match(dado, pattern)){
+        throw invalid_argument("Número inválido.");
+    }
+};
+
+void Texto::validar(string dado){
+    
+    regex pattern("^(?=.{10,20}$)[a-zA-Z0-9.,;?!:\\-@#$%&]*(\\s+[a-zA-Z0-9.,;?!:\\-@#$%&]+)*\\s*$");
+
+    if (!regex_match(dado, pattern)){
+        throw invalid_argument("Texto inválido.");
+    }
 }
