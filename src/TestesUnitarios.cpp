@@ -53,8 +53,8 @@ void TestCodigo::setUp() {
 };
 
 void TestData::setUp() {
-    DADO_VALIDO = new const string("29/FEV/24");
-    DADO_INVALIDO = new const string("29/FEV/23");
+    DADO_VALIDO = new const string("29/FEV/2024");
+    DADO_INVALIDO = new const string("29/FEV/2023");
     dominio = new Data;
     estado = true;
 };
@@ -209,7 +209,7 @@ void TestCasoDeTeste::setUp() {
     casoDeTeste = new CasoDeTeste();
     CODIGO_VALIDO = new const string("ABC123");
     NOME_VALIDO = new const string("Onde tudo funciona");
-    DATA_VALIDA = new const string("25/NOV/50");
+    DATA_VALIDA = new const string("25/NOV/2050");
     ACAO_VALIDA = new const string("Testa coisas");
     RESPOSTA_VALIDA = new const string("Deu certo!");
     RESULTADO_VALIDO = new const string("APROVADO");
