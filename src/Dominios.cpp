@@ -127,7 +127,7 @@ void Resultado:: validar(string dado){
 };
 
 void Senha::validar(string dado){
-    regex pattern(R"((?!.*(.).*\1)^[A-Za-z0-9@$#\$%&]{6,})");
+    regex pattern(R"((?!.*(.).*\1)^[A-Za-z0-9@$#\$%&]{6})");
 
     if (!regex_match(dado, pattern)){
         throw invalid_argument("Senha inválida.");
